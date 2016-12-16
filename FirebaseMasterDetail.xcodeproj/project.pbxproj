@@ -15,9 +15,7 @@
 		186F2CC11DE2723C004B72C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186F2CBF1DE2723C004B72C9 /* LaunchScreen.storyboard */; };
 		186F2CCC1DE2723C004B72C9 /* FirebaseMasterDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F2CCB1DE2723C004B72C9 /* FirebaseMasterDetailTests.swift */; };
 		186F2CD71DE2723C004B72C9 /* FirebaseMasterDetailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F2CD61DE2723C004B72C9 /* FirebaseMasterDetailUITests.swift */; };
-		186F2CE51DE2E51A004B72C9 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186F2CE41DE2E51A004B72C9 /* MainView.xib */; };
 		186F2CE71DE432AE004B72C9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F2CE61DE432AE004B72C9 /* DetailViewController.swift */; };
-		186F2CE91DE432FC004B72C9 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186F2CE81DE432FC004B72C9 /* DetailView.xib */; };
 		9048A4FCF2D03625425CBA90 /* Pods_FirebaseMasterDetailTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9474F25B2E113DE9BB80A3 /* Pods_FirebaseMasterDetailTests.framework */; };
 		CFA2D0187B5DC2406D8F5AC2 /* Pods_FirebaseMasterDetail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D873B1CF0DC5BBF0EBDB5D5 /* Pods_FirebaseMasterDetail.framework */; };
 		D0F149CEB481C72E7AA89B81 /* Pods_FirebaseMasterDetailUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75979A92C9E6BD4A664C70BE /* Pods_FirebaseMasterDetailUITests.framework */; };
@@ -55,9 +53,7 @@
 		186F2CD21DE2723C004B72C9 /* FirebaseMasterDetailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseMasterDetailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		186F2CD61DE2723C004B72C9 /* FirebaseMasterDetailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseMasterDetailUITests.swift; sourceTree = "<group>"; };
 		186F2CD81DE2723C004B72C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		186F2CE41DE2E51A004B72C9 /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
 		186F2CE61DE432AE004B72C9 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		186F2CE81DE432FC004B72C9 /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
 		396489C4E5F894011E528F77 /* Pods-FirebaseMasterDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseMasterDetail.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseMasterDetail/Pods-FirebaseMasterDetail.release.xcconfig"; sourceTree = "<group>"; };
 		4B9474F25B2E113DE9BB80A3 /* Pods_FirebaseMasterDetailTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseMasterDetailTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75979A92C9E6BD4A664C70BE /* Pods_FirebaseMasterDetailUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseMasterDetailUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,8 +125,6 @@
 				186F2CBD1DE2723C004B72C9 /* Assets.xcassets */,
 				186F2CBF1DE2723C004B72C9 /* LaunchScreen.storyboard */,
 				186F2CC21DE2723C004B72C9 /* Info.plist */,
-				186F2CE41DE2E51A004B72C9 /* MainView.xib */,
-				186F2CE81DE432FC004B72C9 /* DetailView.xib */,
 				186E31551DEEBFFF00E9FEA9 /* GoogleService-Info.plist */,
 			);
 			path = FirebaseMasterDetail;
@@ -294,10 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				186F2CC11DE2723C004B72C9 /* LaunchScreen.storyboard in Resources */,
-				186F2CE51DE2E51A004B72C9 /* MainView.xib in Resources */,
 				186F2CBE1DE2723C004B72C9 /* Assets.xcassets in Resources */,
 				186F2CBC1DE2723C004B72C9 /* Main.storyboard in Resources */,
-				186F2CE91DE432FC004B72C9 /* DetailView.xib in Resources */,
 				186E31561DEEBFFF00E9FEA9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
